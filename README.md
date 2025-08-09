@@ -43,11 +43,25 @@ Built with **Next.js**, HTML, CSS, and JavaScript, Splitr combines a sleek UI wi
 ---
 
 ## 📂 Project Structure
+```plaintext
 Splitr/
-│── app/ # Pages and routes
-│── components/ # Reusable UI components
-│── hooks/ # Custom React hooks
-│── lib/ # Helper functions
-│── public/ # Static assets
-│── styles/ # Global and module styles
-│── package.json # Project metadata and dependencies
+│── app/               # Pages and routes for the Next.js app
+│   ├── layout.js      # Root layout component
+│   ├── page.js        # Main landing page
+│   └── ...            # Other route files/folders
+│
+│── components/        # Reusable UI components (buttons, forms, etc.)
+│
+│── hooks/             # Custom React hooks for reusable logic
+│
+│── lib/               # Utility and helper functions
+│
+│── public/            # Static assets (images, icons, etc.)
+│
+│── styles/            # Global styles and CSS modules
+│
+│── .gitignore         # Files and folders to ignore in Git
+│── package.json       # Project metadata and dependencies
+│── README.md          # Project documentation
+│── next.config.js     # Next.js configuration
+│── jsconfig.json      # JS/TS path aliases configuration
